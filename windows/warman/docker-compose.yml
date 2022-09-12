@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+  appdlabwarman:
+    image: appdlabwarman
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    environment:
+      NODE_ENV: production
+    env_file: ./.env

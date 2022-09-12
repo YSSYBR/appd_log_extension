@@ -1,0 +1,28 @@
+version: '3.4'
+
+services:
+
+  appdlabwarman:
+    image: appdlabwarman
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    environment:
+      NODE_ENV: production
+    env_file: ./.env
+    ports:
+      - ${WL_PORT}:${WL_PORT}
+    extra_hosts:
+      - ${WL_HOST_NAME}:${WL_HOST_ADDRESS}
+    volumes:
+      - type: volume
+        source: mydata
+        target: /data
+        volume:
+          nocopy: true
+      - type: bind
+        source: ${ORACLE_DISK_SRC}
+        target: /opt/app/c
+
+volumes:
+  mydata:

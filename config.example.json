@@ -1,0 +1,19 @@
+{
+    "DEVELOPMENT": "true",
+    "DEVELOPMENT_SCRIPT": "<script> window.onload = function () { var span = document.getElementById('SCRIPT_NODE'); span.innerHTML = 'O script está ATIVADO!'; };</script>",
+    "PORT": 3000,
+    "INTERVAL": 10000,
+    "WL_PROTOCOL": "http",
+    "WL_HOSTNAME": "yssy-n0117",
+    "WL_PORT": 7001,
+    "WL_USERNAME": "weblogic",
+    "WL_PASSWORD": "admin@123",
+    "WL_VERSION": "latest",
+    "APPD_USERNAME": "",
+    "APPD_PASSWORD": "",
+    "APPD_PROTOCOL": "https",
+    "APPD_HOSTNAME": "yssysolucoes-nfr.saas.appdynamics.com",
+    "APPD_PORT": 443,
+    "APPD_SECRET": "eyJraWQiOiJlZjJhOTYwNS1iMDk1LTQxNjUtYjQ5Ny03ZWRlNmZmNTMxNWIiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJBcHBEeW5hbWljcyIsImF1ZCI6IkFwcERfQVBJcyIsImp0aSI6IlpHekpUUDI0V1RsNWdtOHBPRVFZbUEiLCJzdWIiOiJmZWRvcmEiLCJpZFR5cGUiOiJBUElfQ0xJRU5UIiwiaWQiOiJiZDlkYzAzNC0xNmE2LTQ4YjMtYjViYy02ZmIwOGFjMDliMmUiLCJhY2N0SWQiOiJlZjJhOTYwNS1iMDk1LTQxNjUtYjQ5Ny03ZWRlNmZmNTMxNWIiLCJ0bnRJZCI6ImVmMmE5NjA1LWIwOTUtNDE2NS1iNDk3LTdlZGU2ZmY1MzE1YiIsImFjY3ROYW1lIjoieXNzeXNvbHVjb2VzLW5mciIsInRlbmFudE5hbWUiOiIiLCJmbW1UbnRJZCI6bnVsbCwiYWNjdFBlcm0iOltdLCJyb2xlSWRzIjpbXSwiaWF0IjoxNjU1MzQ3ODUzLCJuYmYiOjE2NTUzNDc3MzMsImV4cCI6MTY1NjIxMTg1MywidG9rZW5UeXBlIjoiQUNDRVNTIn0.iAdDACpbeI1YFFcE5uUPxcJYNz2FD4ik8bT0rmTgFHc"
+  }
+  

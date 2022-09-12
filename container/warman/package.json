@@ -1,0 +1,23 @@
+{
+  "name": "appd-lab-warman",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/index.js"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.9",
+    "appdynamics": "^22.5.0",
+    "cheerio": "^1.0.0-rc.11",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^16.0.1",
+    "express": "~4.16.1",
+    "memory-cache": "^0.2.0",
+    "morgan": "~1.9.1",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "jsdoc-to-markdown": "^7.1.1"
+  }
+}
