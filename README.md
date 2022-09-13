@@ -2,7 +2,7 @@
 This extension works only with the standalone machine agent. It has been tested against various processes with different execution parameters and log files handlings.
 
 ## Use Case ##
-The Logfile monitoring extension identifies local services that have log files linked to the running process to configure a log source in appdynamics log analytics
+The Logfile monitoring extension identifies local services that have log files linked to the running process to configure a log source in appdynamics log analytics automatically. With this solution, it is possible to perform real-time and automatic collection of logs through the agent.
 
 ## Pre-requisites
 1. Before the extension is installed, the prerequisites mentioned [here](https://docs.appdynamics.com/appd/21.x/21.6/en/analytics/deploy-analytics-with-the-analytics-agent/install-agent-side-components) need to be met. Please do not proceed with the extension installation if the specified prerequisites are not met.
