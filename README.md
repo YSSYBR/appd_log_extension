@@ -1,6 +1,6 @@
-# Agente App Dynamics
+# Appdynamics Logfiles Extension
 
-Projeto responsável por injetar scripts do App Dynamics para aplicativos no Oracle Weblogic.
+This extension works only with the standalone machine agent. It has been tested against various processes with different execution parameters.
 
 ## Instalador Windows
 
