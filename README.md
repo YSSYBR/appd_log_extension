@@ -40,7 +40,7 @@ controller:
     username: acccount@email.com
     password: password
     protocol: https
-    hostname: yssysolucoes-nfr.saas.appdynamics.com
+    hostname: <account-name>.saas.appdynamics.com
     port: 443
 
 keywords:
